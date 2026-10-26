@@ -154,11 +154,13 @@ BEGIN{
 
         if (diff > max_diff[$1]) {
             max_diff[$1] = diff
-            saved_col[$1] = $3
+            saved_col[$1] = last_query[$1]
         }
     }
 
     last_time[$1] = current_time
+    last_query[$1] = $3
+
 }
 END {
     print "key,linger,query"
