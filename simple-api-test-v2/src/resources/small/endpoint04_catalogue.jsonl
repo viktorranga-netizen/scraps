@@ -1,0 +1,2 @@
+{"domain":"good-approved.example.test","floor01":50,"floor02":5000,"floor03":1000,"array01":["GOOD"],"Multipliers":{"GOOD":1.5}}
+{"domain":"good-multiplier-trap.example.test","floor01":50,"floor02":5000,"floor03":1000,"array01":["BAD"],"Multipliers":{"GOOD":1.5}}
